@@ -23,7 +23,7 @@ function renderHtml(obj) {
     obj.data.forEach(element => {
 
         let li = document.createElement('li')
-        // li.className = "box__item";
+     
         li.classList.add('box__item')
       
         li.innerHTML = `
@@ -62,7 +62,7 @@ function renderHtml(obj) {
         removeItems (itemList)
     })
 }
-// renderHtml(url) 
+
 
 function removeItems(items) {
     items.forEach(el => {
@@ -70,7 +70,7 @@ function removeItems(items) {
     
             e.currentTarget.querySelector('.remove__btn').style.display = "block"
             e.currentTarget.querySelector('.remove__btn').addEventListener('click', ()=> {
-                el.style.display="none"
+                el.remove()
             })
         })
         el.addEventListener('mouseout', (e)=> {
