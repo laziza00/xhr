@@ -28,7 +28,7 @@ function renderHtml(obj) {
       
         li.innerHTML = `
         <button class="remove__btn" style="display: none">
-        Remove <i class='bx bx-trash'></i></button>
+        Remove Users<i class='bx bx-trash'></i></button>
         <div style="display: flex;">
         <img class="box__img" src="${element.avatar}" alt="img">
         <div>
