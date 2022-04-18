@@ -40,7 +40,7 @@ function renderHtml(obj) {
             <ul class="box__inner-list" style="list-style-type: none; padding: 0;">
               <li class="box__inner-item" style="display: flex; justify-content: space-between;">
                 <p class="box__item-text">company</p>
-                <p class="box__item-desc">more information about </p>
+                <p class="box__item-desc">information </p>
               </li>
               <li class="box__inner-item" style="display: flex; justify-content: space-between;">
                 <p class="box__item-text">email</p>
@@ -48,11 +48,11 @@ function renderHtml(obj) {
               </li>
               <li class="box__inner-item" style="display: flex; justify-content: space-between;">
                 <p class="box__item-text">phone</p>
-                <p class="box__item-desc">more information about </p>
+                <p class="box__item-desc"> information </p>
               </li>
               <li class="box__inner-item" style="display: flex; justify-content: space-between;">
                 <p class="box__item-text">website</p>
-                <p class="box__item-desc">more information about </p>
+                <p class="box__item-desc"> information </p>
               </li>
             </ul>
           </div>

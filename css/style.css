@@ -11,11 +11,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+.box__list {
+  width: 100%;
+}
 .box__item {
   position: relative;
   margin:0 10px 20px 10px;
   padding: 15px;
-  width: 400px;
+  width: 30%;
   border-radius: 10px;
   border: 1px solid rgb(161, 157, 157);
   transition: all 0.3s ease;
@@ -41,12 +44,14 @@ body {
   color: rgb(102, 98, 98);
   font-weight: 400;
   text-transform: uppercase;
+  margin: 0 0 5px 0;
 }
 .box__item-desc {
   font-size: 16px;
   color: rgb(53, 51, 51);
   font-weight: 400;
   text-transform: capitalize;
+  margin: 0 0 5px;
 }
 .remove__btn {
   position: absolute;
@@ -77,4 +82,28 @@ body {
   color: #fff;
   margin: 0 0 0 10px;
   transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 992px) {
+  .box__inner-item {
+    flex-direction: column;
+    margin: 0;
+  }
+  .box__item {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box__list {
+    justify-content: center;
+    padding: 0;
+  }
+  .box__inner-item {
+    flex-direction: row;
+    margin: 0;
+  }
+  .box__item {
+    width: 100%;
+  }
 }
