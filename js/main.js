@@ -68,11 +68,13 @@ function removeItems(items) {
     
             e.currentTarget.querySelector('.remove__btn').style.display = "block"
             e.currentTarget.querySelector('.remove__btn').addEventListener('click', ()=> {
+              setTimeout(function() {
                 el.remove()
+              }, 100)
+               
             })
         })
         el.addEventListener('mouseout', (e)=> {
-           
             e.currentTarget.querySelector('.remove__btn').style.display = "none"
         })
     })
