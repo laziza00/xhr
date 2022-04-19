@@ -17,13 +17,12 @@ body {
 }
 .box__list {
   width: 100%;
-  /* justify-content: space-between; */
 }
 .box__item {
   position: relative;
-  margin:0 5px 25px 5px;
+  margin:0 10px 25px 10px;
   padding: 40px  20px;
-  width: 32%;
+  width: 31%;
   border-radius: 10px;
   border: 1px solid rgb(161, 157, 157);
   transition: all 0.3s ease;
