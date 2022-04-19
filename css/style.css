@@ -112,10 +112,9 @@ body {
     padding: 0;
   }
   .box__inner-item {
-    flex-direction: row;
     margin: 0;
   }
   .box__item {
-    width: 100%;
+    width: 90%;
   }
 }
