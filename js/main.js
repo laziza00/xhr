@@ -48,7 +48,7 @@ function renderHtml(obj) {
               </li>
               <li class="box__inner-item" style="display: flex; justify-content: space-between;">
                 <p class="box__item-text">phone</p>
-                <p class="box__item-desc"> information </p>
+                <p class="box__item-desc"> +998901234567</p>
               </li>
               <li class="box__inner-item" style="display: flex; justify-content: space-between;">
                 <p class="box__item-text">website</p>
@@ -62,8 +62,6 @@ function renderHtml(obj) {
         removeItems (itemList)
     })
 }
-
-
 function removeItems(items) {
     items.forEach(el => {
         el.addEventListener('mouseover', (e)=> {
@@ -79,4 +77,3 @@ function removeItems(items) {
         })
     })
 }
-
